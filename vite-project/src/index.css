@@ -1,0 +1,27 @@
+:root {
+  color-scheme: light dark;
+  color: rgba(255, 255, 255, 0.87);
+  background-color: #242424;
+  font-size: 3rem;
+  text-align: center  ;
+
+}
+
+.Increment-button {
+  padding: 1vw;
+  font-size: 0.6rem;
+  color: aquamarine;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.Increment-button:active{
+  font-size: 0.8rem;
+}
+
+.count-display{
+  margin-top: 3rem;
+  margin-bottom: 1rem;
+  color: blueviolet;
+  font-size: 5rem;
+}
+
