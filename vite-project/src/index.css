@@ -7,16 +7,17 @@
 
 }
 
-.Increment-button {
+button {
   padding: 1vw;
   font-size: 0.6rem;
   color: aquamarine;
   font-family: Arial, Helvetica, sans-serif;
+  margin: 1rem;
 }
 
-.Increment-button:active{
-  font-size: 0.8rem;
-}
+/* button:active{
+  font-size: 0.7rem;
+} */
 
 .count-display{
   margin-top: 3rem;
@@ -25,3 +26,17 @@
   font-size: 5rem;
 }
 
+
+@media (max-width: 600px) {
+  body {
+    font-size: 14px; /* Smaller font size for mobile */
+  }
+
+  .container {
+    padding: 10px;
+  }
+
+  .header {
+    font-size: 1.2rem;
+  }
+}
